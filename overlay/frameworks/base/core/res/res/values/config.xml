@@ -685,4 +685,6 @@
 sensor -->
     <bool name="config_supportsGesturesOnFingerprintSensor">true</bool>
 
- </resources>
+    <!-- Whether device can force navbar disabling --> 
+    <bool name="config_canForceDisableNavigationBar">true</bool>
+</resources>
