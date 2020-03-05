@@ -674,4 +674,9 @@
 
     <!-- Whether or not we should show vendor mismatch message -->
     <bool name="config_show_vendor_mismatch_message">false</bool>
-</resources>
+
+    <!-- Whether device supports gestures on fingerprint 
+sensor -->
+    <bool name="config_supportsGesturesOnFingerprintSensor">true</bool>
+
+ </resources>
