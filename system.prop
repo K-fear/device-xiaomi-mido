@@ -33,7 +33,8 @@ persist.data.netmgrd.qos.enable=true
 persist.vendor.data.mode=concurrent
 
 # Display
-debug.egl.hw=1
+debug.cpurend.vsync=false
+debug.egl.hw=0
 debug.enable.sglscale=1
 debug.gralloc.enable_fb_ubwc=1
 debug.hwui.renderer=vulkan
