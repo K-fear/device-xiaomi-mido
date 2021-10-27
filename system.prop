@@ -11,9 +11,6 @@ persist.sys.usb.config=mtp,adb
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=6
 
-# Blur
-ro.surface_flinger.supports_background_blur=0
-
 # BPF
 ro.kernel.ebpf.supported=true
 
@@ -43,7 +40,9 @@ debug.hwui.renderer=skiagl
 debug.mdpcomp.logs=0
 debug.performance.tuning=1
 debug.sf.enable_gl_backpressure=1
-debug.sf.hw=1
+debug.sf.disable_backpressure=1
+debug.sf.enable_hwc_vds=1
+debug.sf.hw=0
 debug.sf.latch_unsignaled=0
 debug.sf.recomputecrop=0
 dev.pm.dyn_samplingrate=1
