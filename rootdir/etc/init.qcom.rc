@@ -416,7 +416,7 @@ on charger
     # Notification LED
     chown system system /sys/class/leds/red/brightness
     write /sys/class/leds/red/brightness 255
-    chown system system /sys/class/leds/blue/brightness 
+    chown system system /sys/class/leds/blue/brightness
     write /sys/class/leds/blue/brightness 255
     chown system system /sys/class/leds/button-backlight/brightness
     write /sys/class/leds/button-backlight/brightness 255
