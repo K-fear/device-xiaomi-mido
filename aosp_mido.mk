@@ -24,10 +24,6 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
-# Gapps
-WITH_GAPPS := true
-TARGET_GAPPS_ARCH := arm64
-
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
