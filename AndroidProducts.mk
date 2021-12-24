@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_mido.mk
+    $(LOCAL_DIR)/spark_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_mido-user \
-    awaken_mido-userdebug \
-    awaken_mido-eng
+    spark_mido-user \
+    spark_mido-userdebug \
+    spark_mido-eng
